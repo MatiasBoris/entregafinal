@@ -11,8 +11,6 @@ body{
     flex-direction: row;
     background-color: yellow;
     width: 100%;
-    position: sticky;
-    top: 0px;
 }
 .navbar{
     display: flex;
@@ -223,7 +221,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/apu.jpeg);
+    background: url(/apu.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -232,6 +230,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__content{
     position: absolute;
@@ -286,7 +285,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/bart.jpeg);
+    background: url(/bart.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -295,6 +294,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__bart:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -316,6 +316,7 @@ label{
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
     background-color: black;
+    border: 1px solid yellow;
 }
 .card__cletus:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -327,7 +328,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/lisa.jpeg);
+    background: url(/lisa.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -336,6 +337,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__lisa:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -347,7 +349,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/homero.jpeg);
+    background: url(/homero.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -356,6 +358,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__homero:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -367,7 +370,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/marge.jpeg);
+    background: url(/marge.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -376,6 +379,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__marge:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -387,7 +391,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/flanders.jpeg);
+    background: url(/flanders.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -396,6 +400,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__flanders:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -407,7 +412,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/maggie.jpeg);
+    background: url(/maggie.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -416,6 +421,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__maggie:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -427,7 +433,7 @@ label{
     margin: 50px;
     width: 300px;
     height: 200px;
-    background: url(/gerald.jpeg);
+    background: url(/gerald.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -436,6 +442,7 @@ label{
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
 }
 .card__gerald:hover .card__content{
     transform: translate(-50%, -50%) rotate(0deg);
@@ -471,5 +478,6 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
