@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/otras/imagenfondo1.jpeg)
+}
+.contenedor__navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+.navbar__logo{
+    height: 60px;
+    width: 90px;
+}
+.navbar__buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+    padding: 0px 20%;
+}
+.buscador{
+    width: 200px;
+}
+.buscador__icono{
+    height: 10px;
+    width: 10px;
+}
+.menu, .carrito {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor__hero{
+    width: 100%;
+}
+.hero__img{
+    width: 89%;
+    margin-left: 30px;
+}
+.imagen__hero{
+    width: 100%;
+}
+.contenedor__slogan{
+    width: 89%;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: -4px;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: yellow;
+    font-family: "Permanent Marker", cursive;
+}
+.contenedor__enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    color: yellow;
+    gap: 5%;
+    width: 89%;
+    font-family: "Permanent Marker", cursive;
+    padding: 30px 0px;
+    font-size: 8px;
+    background-color: black;
+    margin-left: 30px;
+}
+.promos,.hamburguesas,.veggie,.parapicar,.bebidas{
+    padding: 5px;
+    background-color: black;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contenedor__tarjetas{
+    background-color: black;
+    width: 89%;
+    margin-left: 30px;
+    list-style: none;
+}
+.tarjeta__homero__img{
+    width: 30px;
+    height: 30px;
+}
+.contenedor__tarjeta__contacto{
+    width: 89%;
+    background-color: black;
+    margin-left: 30px;
+}
+.tarjeta__contacto{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: yellow;
+}
+.contenedor__contacto{
+width: 33%;
+}
+.lista__contacto{
+    list-style: none;
+}
+.img__phone{
+    width: 5px;
+    height: 5px;
+}
+.contenedor__transparencia{
+    width: 33%;
+}
+.contenedor__redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    gap: 5px;
+}
+.redes__link{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+.img__contactos{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+}
+footer{
+    width: 89%;
+    color: yellow;
+    font-size: 10px;
+    padding: 10px;
+    background-color: black;
+    margin-left: 30px;
+}
+footer p a{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+/*MENU HAMBURGUESA DESPLEGABLE*/
+.botonMenu{
+   margin: 0 auto;
+   display: block;
+   width: 40px;
+   height: 30px;
+   border-radius: 7px;
+   background: yellow;
+   color: black;
+   cursor: pointer;
+   position: relative;
+   padding-left: 10px;
+   padding-top: 2px;
+}
+.botonMenu span{
+   display: block;
+   width: 20px;
+   height: 1px;
+   background: black;
+   margin-top: 5px;
+   border: 1px solid black;
+}
+label{
+   cursor: pointer;
+}
+#menu-toggle{
+   display: none;
+}
+#trickMenu{
+   display: none;
+   text-align: center;
+   background: yellow;
+   padding: 10px 0;
+   position: absolute;
+   margin-right: 500px;
+   border-radius: 10px;
+   border: 1px solid black;
+}
+#trickMenu li a {
+   display: block;
+   padding: 10px 5px;
+   color: black;
+   text-decoration: none;
+}
+#menu-toggle:checked + #trickMenu{
+   display: block;
+   width: 100px;
+}

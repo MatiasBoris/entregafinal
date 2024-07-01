@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registrarse.css">
+</head>
+<body>
+    <div class="contenedor__tarjeta">
+        <div class="tarjeta">
+            <form>
+                <div class="titulo">
+                    <h1>REGISTRARSE</h1>
+                </div>
+                <div class="nombres">
+                    <input type="text" placeholder="Nombre" class="nombre" required>
+                    <input type="text" placeholder="Apellido" class="nombre" required>
+                </div>
+                <input type="email" placeholder="Correo electrónico" class="email" required>
+                <input type="number" placeholder="Teléfono" class="telefono" required>
+                <input type="password" placeholder="Contraseña" class="contraseña" required>
+                <div class="check">
+                    <div class="check1">
+                        <input type="checkbox" id="notif" required>
+                        <label for="notif">Acepto recibir notificaciones</label>
+                    </div>
+                    <div class="check2">
+                        <input type="checkbox" id="terminos" required>
+                        <label for="terminos">Aceptar <a href="#">Términos y Condiciones</a></label>
+                    </div>
+                </div>
+                <input type="submit" class="submit">
+                <div class="iniciarsesion">
+                    <a href="/iniciar sesion/iniciarsesion.html"> ¿Ya tienes una cuenta? Inicia sesión</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

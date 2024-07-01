@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.tarjeta{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 1.5rem;
+}
+.nombres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.nombre{
+    width: 30%;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.check1{
+    margin-right: 27px;
+}
+.submit{
+    width: 50%;
+}

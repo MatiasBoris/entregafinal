@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.tarjeta{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.email__img,.contraseña__img{
+    width: 15px;
+    height: 15px;
+}
+.usuario__img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 30px;
+    gap: 10px;
+}
+.contra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 30px;
+    gap: 10px;
+}
+.checkyolvidaste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+.olvidaste a{
+    text-decoration: none;
+    color: black;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    color: yellow;
+    margin-bottom: 10px;
+}
+.registrarse{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
