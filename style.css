@@ -482,3 +482,10 @@ label{
     flex-wrap: wrap;
     padding-bottom: 50px;
 }
+.titulo{
+    color: yellow;
+    margin-bottom: -50px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+    padding-top: 50px;
+}
