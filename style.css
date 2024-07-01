@@ -98,10 +98,6 @@ body{
     margin-left: 30px;
     list-style: none;
 }
-.tarjeta__homero__img{
-    width: 30px;
-    height: 30px;
-}
 .contenedor__tarjeta__contacto{
     width: 89%;
     background-color: black;
@@ -219,8 +215,8 @@ label{
 .card__apu{
     position: relative;
     margin: 50px;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
     background: url(/apu.png);
     background-position: center;
     background-size: cover;
@@ -253,14 +249,8 @@ label{
     opacity: 1;
     border-radius: 10px;
 }
-.card__title{
-    margin: 0;
-    font-size: 24px;
-    color: #000000;
-    font-weight: 700;
-}
 .card__descripcion{
-    font-size: 14px;
+    font-size: 5px;
     color: yellow;
     line-height: 1.4;
     display: flex;
@@ -276,8 +266,8 @@ label{
     transform: rotate(-45deg);
 }
 .card__descripcion img{
-    width: 50px;
-    height: 100%;
+    width: 40px;
+    height: 90px;
     border-radius: 10px;
 }
 .card__bart{
