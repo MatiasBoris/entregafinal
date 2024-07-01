@@ -219,7 +219,7 @@ label{
 .card__apu{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/apu.png);
     background-position: center;
@@ -283,7 +283,7 @@ label{
 .card__bart{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/bart.png);
     background-position: center;
@@ -304,7 +304,7 @@ label{
 .card__cletus{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/cletus.png);
     background-position: center;
@@ -326,7 +326,7 @@ label{
 .card__lisa{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/lisa.png);
     background-position: center;
@@ -347,7 +347,7 @@ label{
 .card__homero{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/homero.png);
     background-position: center;
@@ -368,7 +368,7 @@ label{
 .card__marge{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/marge.png);
     background-position: center;
@@ -389,7 +389,7 @@ label{
 .card__flanders{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/flanders.png);
     background-position: center;
@@ -410,7 +410,7 @@ label{
 .card__maggie{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/maggie.png);
     background-position: center;
@@ -431,7 +431,7 @@ label{
 .card__gerald{
     position: relative;
     margin: 50px;
-    width: 300px;
+    width: 200px;
     height: 200px;
     background: url(/gerald.png);
     background-position: center;
@@ -480,4 +480,5 @@ label{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
