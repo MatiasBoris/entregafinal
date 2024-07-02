@@ -871,4 +871,17 @@ label{
     .contenedor__hero{
         display: none;
     }
+    .contenedor__enlaces{
+        position: sticky;
+        top: 60px;
+        z-index: 1;
+    }
+    .contenedor__links{
+        z-index: 2;
+    }
+    .contenedor__navbar{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
 }
