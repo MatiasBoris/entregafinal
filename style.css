@@ -61,6 +61,8 @@ body{
     background-color: black;
     margin-left: 30px;
     margin-top: -4px;
+    border: 1px solid yellow;
+    border-radius: 10px;
 }
 .slogan{
     display: flex;
@@ -84,6 +86,8 @@ body{
     font-size: 8px;
     background-color: black;
     margin-left: 30px;
+    border: 1px solid yellow;
+    border-radius: 10px;
 }
 .promos,.hamburguesas,.veggie,.parapicar,.bebidas{
     padding: 5px;
@@ -102,6 +106,7 @@ body{
     width: 89%;
     background-color: black;
     margin-left: 30px;
+    border-radius: 10px;
 }
 .tarjeta__contacto{
     display: flex;
@@ -112,6 +117,8 @@ body{
     padding: 10px 20px;
     font-size: 10px;
     background-color: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .contenedor__contacto{
 width: 33%;
@@ -155,6 +162,8 @@ footer{
     padding: 10px;
     background-color: black;
     margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid yellow;
 }
 footer p a{
     color: yellow;
@@ -210,6 +219,7 @@ label{
    display: block;
    width: 100px;
 }
+
 
 /*TARJETAS HAMBURGUESAS*/
 .card__apu{
@@ -462,6 +472,7 @@ label{
     border-radius: 10px;
     border: 1px solid yellow;
     box-shadow: 0px 0px 10px -3px rgba(255,221,0,1);
+    cursor: pointer;
 }
 .precio{
     color: yellow;
@@ -490,4 +501,346 @@ label{
     font-family: "Permanent Marker", cursive;
     font-size: 18px;
     padding-top: 50px;
+}
+
+
+
+
+.card__agua{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.bebidas__img{
+    width: 150px;
+    height: 150px;
+}
+.stellanegra__img{
+    width: 130px;
+    height: 140px;
+}
+.corona__img{
+    width: 120px;
+    height: 150px;
+}
+.naranja__img{
+    width: 120px;
+    height: 150px;
+}
+.pomelo__img{
+    width: 120px;
+    height: 150px;
+}
+.sprite__img{
+    width: 120px;
+    height: 150px;
+}
+.card__coca{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__cocalight{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__sprite{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__fanta{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__naranja{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__manzana{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__pomelo{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__corona{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__stella{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__stellanegra{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.titulo__bebidas{
+    color: yellow;
+    margin-bottom: -50px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    padding: 70px 0;   
+}
+.contenedor__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.picar__img{
+    width: 160px;
+    height: 150px;
+}
+.card__fritas{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__dedos{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__tequeños{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.dedos__img{
+    margin-top: 40px;
+    width: 150px;
+    height: 110px;
+}
+.titulo__links{
+    color: yellow;
+    margin-bottom: -50px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    padding: 50px 0px;
+    text-align: center;
+}
+.picar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contenedor__picar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card__promohomero{
+    position: relative;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: url(/promohomero.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__promohomero:hover .card__content{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+    border-radius: 10px;
+}
+.card__promoflanders{
+    position: relative;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: url(/promoflanders.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__promoflanders:hover .card__content{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+    border-radius: 10px;
+}
+.card__promobart{
+    position: relative;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: url(/promobart.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__promobart:hover .card__content{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+    border-radius: 10px;
+}
+.card__promolisa{
+    position: relative;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background: url(/promolisa.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 20px -3px rgba(255,221,0,1);
+}
+.card__promolisa:hover .card__content{
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+    border-radius: 10px;
+}
+.hamburguesas,.veggie,.kids,.picar,.bebidas,.promos{
+    width: 89%;
+    background-color: black;
+    margin-top: -4px;
+    border: 1px solid yellow;
+    border-radius: 10px;
 }
