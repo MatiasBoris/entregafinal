@@ -49,8 +49,6 @@ body{
 .contenedor__hero{
     width: 100%;
 }
-.hero__img{
-}
 .imagen__hero{
     width: 100%;
 }
@@ -98,12 +96,15 @@ body{
     color: yellow;
 }
 .contenedor__tarjeta__contacto{
-    width: 89%;
     background-color: black;
-    margin-left: 30px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .tarjeta__contacto{
+    width: 100%;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -151,12 +152,14 @@ width: 33%;
     height: 10px;
 }
 footer{
-    width: 89%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: yellow;
     font-size: 10px;
     padding: 10px;
     background-color: black;
-    margin-left: 30px;
     border-radius: 10px;
     border: 1px solid yellow;
 }
