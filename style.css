@@ -50,17 +50,16 @@ body{
     width: 100%;
 }
 .hero__img{
-    width: 89%;
-    margin-left: 30px;
 }
 .imagen__hero{
     width: 100%;
 }
 .contenedor__slogan{
-    width: 89%;
     background-color: black;
-    margin-left: 30px;
-    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border: 1px solid yellow;
     border-radius: 10px;
 }
@@ -74,8 +73,10 @@ body{
 }
 .contenedor__enlaces{
     background-color: black;
-    width: 89%;
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 10px;
     border: 1px solid yellow;
     text-decoration: none;
@@ -831,4 +832,11 @@ label{
     border: 1px solid yellow;
     border-radius: 10px;
     padding-bottom: 50px;
+}
+.contenedor__tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
