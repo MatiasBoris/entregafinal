@@ -874,10 +874,10 @@ label{
     .contenedor__enlaces{
         position: sticky;
         top: 60px;
-        z-index: 1;
+        z-index: 2;
     }
     .contenedor__links{
-        z-index: 2;
+        z-index: 3;
     }
     .contenedor__navbar{
         position: sticky;
