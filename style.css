@@ -115,7 +115,7 @@ body{
     color: black;
     text-align: center;
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 12px;
     background-color: yellow;
     border: 1px solid black;
     border-radius: 10px;
@@ -862,5 +862,13 @@ label{
     }
     .tarjeta__contacto{
         font-size: 5px;
+    }
+    .contenedor__slogan{
+        font-size: 10px;
+    }
+}
+@media (max-width: 475px){
+    .contenedor__hero{
+        display: none;
     }
 }
