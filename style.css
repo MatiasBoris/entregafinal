@@ -857,4 +857,10 @@ label{
     .buscador__icono{
         display: none;
     }
+    .enlaces{
+        font-size: 8px;
+    }
+    .tarjeta__contacto{
+        font-size: 5px;
+    }
 }
